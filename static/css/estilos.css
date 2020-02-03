@@ -63,7 +63,39 @@ section {
 	width: 850px;
 }
 
-#contenido section {
+.col {
+	border:1px solid #000;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 600px 250px;
+	margin-top: 20px;
+}
+
+.grid-container aside {
+	font-size: 1.4em;
+	padding: 20px;
+}
+
+#redes {
+	list-style: none;
+	padding: 0;
+}
+
+#redes li {
+	border-bottom: 1px solid #6F6D70;
+	margin-top: 10px;
+}
+
+#redes a {
+	color: #34689F;
+	text-decoration: none;
+}
+
+
+
+/*#contenido section {
 	width: 600px; 
 }
 
@@ -78,7 +110,7 @@ section {
 	padding: 8px;
 	box-sizing: border-box;
 	vertical-align: top;
-}
+}*/
 
 
 
